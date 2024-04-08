@@ -3,6 +3,10 @@
   padding: 0;
   border: border-box;
 }
+/* Optional code */
+body {
+  background-color: #e2e7e6;
+}
 .navbar {
   height: 60px;
   background-color: #0f1111;
@@ -204,7 +208,7 @@
 
 .shopping-section {
   width: 100%;
-  /* padding-top: 15px; */
+  padding-top: 10px;
   background-color: #e2e7e6;
   display: flex;
   flex-wrap: wrap;
@@ -240,4 +244,54 @@
 .content p {
   color: #007185;
 }
-/* box-2 */
+
+.frame {
+  width: 100%;
+  height: 126px;
+  background-color: white;
+  border: 1px solid #e2e7e6;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-content p {
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.f-btn {
+  height: 28px;
+  width: 230px;
+  background-color: #ff9900;
+  border: none;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.frame-content span {
+  cursor: pointer;
+  color: #007185;
+}
+
+.end-div {
+  height: 45px;
+  background-color: #222f3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-end {
+  color: #ffffff;
+}
+
+.inner-end p {
+  padding: 15px 0px;
+}
