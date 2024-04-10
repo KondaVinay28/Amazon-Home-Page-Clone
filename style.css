@@ -317,3 +317,43 @@ body {
 .info a:hover {
   text-decoration: underline;
 }
+
+.last-container {
+  height: 68px;
+  background-color: #222f3d;
+  color: white;
+  border-top: 1px solid #dddddd;
+  padding: 10px 95px;
+  display: flex;
+  justify-content: center;
+}
+.Icontainer {
+  width: 1000px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lLogo {
+  background-image: url("Images/amazon_logo.png");
+  height: 50px;
+  width: 100px;
+  padding: 5px 0px;
+  background-size: cover;
+}
+.three-containers {
+  display: flex;
+  margin-left: 100px;
+}
+.Margin-box {
+  margin-left: 10px;
+}
+.Fborder {
+  width: 150px;
+  text-align: center;
+  border: 1px solid #dddd;
+  padding: 6px 18px 6px 8px;
+  margin-left: 10px;
+  border-radius: 5px;
+  display: flex;
+}
